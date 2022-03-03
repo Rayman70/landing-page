@@ -1,0 +1,146 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.logoLinkContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.links {
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+}
+
+a, ul {
+    text-decoration: none;
+    list-style-type: none;
+    color: #E5E7EB;
+}
+
+.heroContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 250px 100px;
+}
+
+.heroHeader {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.heroText {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 600px;
+}
+
+.signButton {
+    border-color: #3882F6;
+}
+
+.signButton, .signButton2 {
+    background: #3882F6;
+    border-radius: 5px;
+    color: #F9FAF8;
+    padding: 5px 25px;
+    text-align: center;
+    border-style: solid;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 0px;
+}
+
+.mainHeader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.imageBlockContainer {
+    display: flex;
+    gap: 30px;
+}
+
+.imageBlock {
+    width: 180px;
+    text-align: center;
+}
+
+.imageBorder {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.quote {
+    background: #E5E7EB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 0px;
+}
+
+.quoteText {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+}
+
+.quoteHeader {
+    display: flex;
+    margin-top: 0px;
+    padding-left: 250px;
+}
+
+.actionTime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+}
+
+.actionContainer {
+    display: flex;
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+    background: #3882F6;
+    padding: 40px 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.actionContainer p {
+    color: #F9FAF8;
+}
+
+.signButton2 {
+    border-color: #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
